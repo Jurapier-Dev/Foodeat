@@ -24,7 +24,9 @@
 }
 body {
     min-width:320px;
-    background-image:url('./photo/bg2.png');
+    background-image:url('./photo/bg3.png');
+    -webkit-backdrop-filter:blur(15px);
+    backdrop-filter:blur(15px);
     /* aspect-ratio:9/16; */
     background-position:center;
     background-repeat:no-repeat;
